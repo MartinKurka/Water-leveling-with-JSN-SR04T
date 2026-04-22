@@ -12,7 +12,7 @@ ESPHome configuration for ultrasonic water level measurement using **JSN-SR04T**
 
 | Component | Description |
 |---|---|
-| ESP8266 D1 Mini Lite | Microcontroller |
+| ESP8266 D1 Mini Lite | Microcontroller, basically any other ESP |
 | JSN-SR04T | Waterproof ultrasonic distance sensor |
 | 50mm PVC pipe | Sensor housing (with foam absorber mod) |
 | Foam/rubber tubing | Acoustic absorber to narrow beam angle |
