@@ -92,7 +92,7 @@ Values are stored in flash memory and survive power cycles.
 
 ## Installation
 
-1. Copy `valve.yaml` to your ESPHome config directory
+1. Copy `tankwaterlevel.yaml` to your ESPHome config directory
 2. Add credentials to `secrets.yaml`:
 ```yaml
 wifi_ssid_1: "your_ssid"
@@ -106,9 +106,9 @@ wifi_pass_4: "your_password_4"
 ```
 3. Flash the device:
 ```bash
-esphome run valve.yaml
+esphome run tankwaterlevel.yaml
 ```
-4. Open the web server at `http://valve.local` and set your parameters
+4. Open the web server at `http://tankwaterlevel.local` and set your parameters
 
 ---
 
