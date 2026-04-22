@@ -70,7 +70,7 @@ All key parameters are adjustable at runtime through the built-in web server —
 
 | Setting | Unit | Default | Description |
 |---|---|---|---|
-| Pipe length | cm | 100 | Physical distance from sensor to tank bottom |
+| Pipe length | cm | 200 | Physical distance from sensor to tank bottom |
 | Max tank level | cm | 80 | Maximum water height in the tank |
 | Offset | cm | 0 | Fine-tuning correction (+ or −) |
 | Low level threshold | % | 20 | Trigger level for low water warning |
