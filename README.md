@@ -122,7 +122,9 @@ esphome run tankwaterlevel.yaml
 ---
 
 ## Notes
-
+- **The pipe must be seamless, with no joints.**
+- At the top, where the sensor is located, you need to drill a few small holes to prevent unwanted pressure buildup when the water moves up and down in the pipe.
+- Cut a groove in the bottom of the pipe to allow water to enter if the pipe will rest on the bottom of the tank.
 - Blind zone: JSN-SR04T cannot reliably measure distances below ~22 cm. If the tank is nearly full and the water surface is within 22 cm of the sensor, readings may be unreliable.
 - The median filter (window size 5) smooths out reflections from water surface ripples. This introduces a ~10s delay in readings.
 - `include_internal: true` is required in `web_server` for the settings input boxes to appear.
